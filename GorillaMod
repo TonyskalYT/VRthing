@@ -375,11 +375,13 @@ local fakerightarm, fakeleftarm, RHA, LHA, RgrabWeld, LgrabWeld, RgrabAtt, Lgrab
     fakeleftarm, fakerightarm = Instance.new("Part", Character), Instance.new("Part", Character)
     fakeleftarm.CFrame = lhand.CFrame
     fakeleftarm.Name = "Fake Left"
-    fakeleftarm.Size = Vector3.new(1,1,.5)
+    fakeleftarm.Size = Vector3.new(1,1,1)
+    fakeleftarm.Shape = Enum.PartType.Ball
     fakeleftarm.Transparency = options.FakeHandsTransparency
     fakerightarm.CFrame = rhand.CFrame
     fakerightarm.Name = "Fake Right"
-    fakerightarm.Size = Vector3.new(1,1,.5)
+    fakerightarm.Size = Vector3.new(1,1,1)
+    fakerightarm.Shape = Enum.PartType.Ball
     fakerightarm.Transparency = options.FakeHandsTransparency
     
     local nocol = Utils:NoCollide(fakeleftarm, fakerightarm)
