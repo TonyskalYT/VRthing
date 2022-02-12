@@ -113,7 +113,7 @@ LocalPlayer.OnTeleport:Connect(function(State)
             options.RightHand = "Racing Helmet Flames"
             options.LeftHand = "Racing Helmet USA"
             
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/saucekid/sauceVR/main/extra/ROrilla.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/TonyskalYT/VRthing/main/GorillaMod
         ]])
     end
 end)
